@@ -25,3 +25,12 @@ function closeNav() {
   $("nav").css("margin-left", "0px");
   $(".nav-icon").html('<i class="fa-solid fa-align-justify"></i>');
 }
+
+$("[section]").on("click", function (e) {
+  e.preventDefault();
+
+  let targetSection = $(this).attr("section");
+  let sectionLocation = $(targetSection).offset().top;
+
+  $("html, body").animate({ scrollTop: sectionLocation }, 300);
+});
