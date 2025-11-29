@@ -337,7 +337,7 @@ input[type="number"] {
 .input-wrapper:hover .showPass,
 .input-wrapper:focus-within .showPass {
   opacity: 1;
-  bottom: 34px;
+  bottom: 38px;
 }
 .error {
   color: rgb(214, 46, 51);
@@ -346,3 +346,4 @@ input[type="number"] {
 .notVald {
   border-bottom: 2px solid rgb(214, 46, 51) !important;
 }
+
