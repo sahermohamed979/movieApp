@@ -12,6 +12,11 @@
   #search {
     width: 80% !important;
   }
+  .input-wrapper:hover .showPass,
+  .input-wrapper:focus-within .showPass {
+    opacity: 1;
+    bottom: 42px;
+  }
 }
 @media (min-width: 600px) and (max-width: 767px) {
   nav {
@@ -26,6 +31,11 @@
   }
   #search {
     width: 80% !important;
+  }
+  .input-wrapper:hover .showPass,
+  .input-wrapper:focus-within .showPass {
+    opacity: 1;
+    bottom: 34px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -45,6 +55,11 @@
   .desc .title {
     font-size: 25px;
   }
+  .input-wrapper:hover .showPass,
+  .input-wrapper:focus-within .showPass {
+    opacity: 1;
+    bottom: 55px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .desc .title {
@@ -55,5 +70,10 @@
   }
   .desc .date {
     margin-bottom: 0px;
+  }
+  .input-wrapper:hover .showPass,
+  .input-wrapper:focus-within .showPass {
+    opacity: 1;
+    bottom: 34px;
   }
 }
