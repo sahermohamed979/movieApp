@@ -42,16 +42,7 @@ li {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-p,
-span,
-a {
-  font-family: Segoe UI Light;
-}
+
 a {
   text-decoration: none;
 }
@@ -346,3 +337,4 @@ input[type="number"] {
 .notVald {
   border-bottom: 2px solid rgb(214, 46, 51) !important;
 }
+
